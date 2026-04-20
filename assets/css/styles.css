@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    font-size: 62.5
+}
+
+/* formatações genéricas */
+a{
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 900;
+    transition: var(--transition)
+}
+
+img {
+    max-width: 100%;
+}
+
+/* fim */
+
+.btn {
+    font-size: 20px;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #000;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    border: 2px solid var(--color-blue);
+    background-color: transparent;
+    color: var(--color-light)
+}
+
+.hero{
+    width:100%;
+    min-height: 100vh;
+    padding: 200px 200px;
+    background-image:linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)) , url(../images/https___hypebeast.com_image_2025_08_15_the-slow-death-of-the-contemporary-art-gallery-1.avif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    width:80%;
+    padding: 3rem;
+    color: var(--color-light);
+}
+
+.hero-content h1 {
+    color:#f0f8ff;
+    font-size: 7vmin;
+    text-shadow: 5px 1px 5px rgba(0,0,0, .9);
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: rgb(251, 225, 251);
+    text-shadow: 5px 1px 5px rgba(0,0,0, .9);
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.container-title {
+    font-size: 5vmin;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: var(--color-blue);
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    gap: 30px;              
+    padding: 40px 15%;
+}
+
+.box {
+    /* min-width: 250px; */
+    width: 30%;
+    margin: 5% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px #ccc;
+    margin-top: 0;
+    border-radius: 20px;
+    transition: var(--transition);
+}
+
+.box:hover {
+    width: 32%;
+}
+.box h2 {
+    padding-top: 30px;
+}
+.box p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.box a{
+    color: var(--color-blue);
+    text-decoration: none;
+    border: 1px solid var(--color-blue);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.box a:hover {
+    background-color: var(--color-blue);
+    color: var(--color-light);
+
+}
