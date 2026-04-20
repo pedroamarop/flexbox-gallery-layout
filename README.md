@@ -1,4 +1,3 @@
-:::writing{variant=“standard” id=“48392”}
 
 🎨 Modern Gallery Landing Page
 
